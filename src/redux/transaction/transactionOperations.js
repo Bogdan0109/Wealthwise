@@ -4,7 +4,7 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 import { toast } from 'react-toastify';
 
 //! axios defaults baseURL (возможно, это не надо, т.к. уже есть в authOperations.js)
-// axios.defaults.baseURL = 'http://localhost:3033/api';
+axios.defaults.baseURL = 'https://wealthwise-backend.onrender.com/api';
 // axios.defaults.baseURL = 'https://contact-book-backend52.onrender.com/api';
 
 //!!! GET @ /transactions
