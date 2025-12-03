@@ -61,7 +61,7 @@ export const RegisterForm = () => {
     <Container>
       <P>You can log in with your Google Account:</P>
 
-      <ButtonGoogl href="http://localhost:3033/api/users/google/">
+      <ButtonGoogl href="https://wealthwise-backend.onrender.com/api/users/google/">
         <GoogleSvg />
       </ButtonGoogl>
 
